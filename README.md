@@ -2,4 +2,47 @@
 
 The EFIN calculator allows a user to enter their age, and their income and see their EFIN appear below
 
-Rails app that allows a user to enter a number, it passes the number to the backend via websockets, the backend passes that number to a background queue that background queue hits an external xml api, process the response and passes that output to the front end via ActionCable
+## Requirements
+
+Ruby and rails installed
+
+## The task(s)
+
+Generally your submission should demonstrate developer best practices. DRY code, keeping things modular etc etc. Show us your understanding and imaginination within the time allotted
+
+## Part one
+
+Configure Rails to accept web socket requests from the front end and return a response.
+
+Requirements:
+
+* a user can enter their income and household size and it is passed to the backend via websockets
+
+## Part 2
+
+Configure a background worker of your choice that can accept jobs from action cable, and can perform a request to an external service  available at efin.oddball.io
+
+The external service is a single url that accepts `JSON` `POST` requests with this structure
+
+```json
+{
+  "household": 1, // num
+  "income":  2 // num
+}
+
+```
+
+If you pass incorrectly formatted data you will receive an error.
+Unfortunately this service is quite slow and can often take 5-10 seconds for a response.
+When you do receive a response, update the front end via websockets to show the user their EFIN
+
+Requirements:
+
+* background worker that proxies requests to an external service
+* actioncable that takes results from worker and displays them on the screen
+
+## Tips & Guidance
+
+* Do read the docs for action cable carefully
+* Do feel free to refactor my js or clean up the front end as much as you want, please no coffee script though.
+* Use whichever background worker you want, just make sure to include instructions for how to get it set up
