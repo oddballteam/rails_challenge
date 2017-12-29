@@ -31,8 +31,8 @@ The external service is a single url that accepts `JSON` `POST` requests with th
 
 ```json
 {
-  "household": 1, // num
-  "income":  2 // num
+  "household": 1,
+  "income":  20000
 }
 
 ```
