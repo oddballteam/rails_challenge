@@ -4,7 +4,12 @@ The EFIN calculator allows a user to enter their age, and their income and see t
 
 ## Requirements
 
-Ruby and rails installed
+Ruby, rails, and node installed
+
+To get application running
+
+* `npm install`
+* `bundle exec rails s`
 
 ## The task(s)
 
