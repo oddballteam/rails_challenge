@@ -15,7 +15,7 @@ To submit your homework, zip up the contents of your git repo in a .zip file. Pl
 When we receive your homework, we'll assign it a random number, so that our team does not know whose submission they are reviewing. Your homework will be reviewed by at least three senior engineers on our team.
 
 
-## EFIN Calculator
+# EFIN Calculator
 
 The EFIN calculator allows a user to enter their age, and their income and see their EFIN appear below
 
