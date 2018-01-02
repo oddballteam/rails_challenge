@@ -8,7 +8,7 @@ If you get stuck, have a question, or want to clarify any aspect of the homework
 
 ## Submitting your completed homework
 
-To submit your homework, zip up the contents of your git repo in a .zip file. Please remove the .git directory, and anything else that might identify you. If you want to include any comments with your submission, add them to the COMMENTS file. If there's anything important for us to know about how to run your code, please include that information in the COMMENTS file. Feel free to include any other information relevant to your submission in the COMMENTS as well. Then email the person who sent you the challenge with that zip file.
+To submit your homework, zip up the contents of your git repo in a .zip file. Please remove the .git directory `node_modules` directory, and anything else that might identify you. If you want to include any comments with your submission, add them to the COMMENTS file. If there's anything important for us to know about how to run your code, please include that information in the COMMENTS file. Feel free to include any other information relevant to your submission in the COMMENTS as well. Then email the person who sent you the challenge with that zip file. If it is too large to be sent via email, please send a link to google drive/dropbox/box.com.
 
 ## Evaluation process
 
@@ -17,7 +17,7 @@ When we receive your homework, we'll assign it a random number, so that our team
 
 # EFIN Calculator
 
-The EFIN calculator allows a user to enter their age, and their income and see their EFIN appear below
+The EFIN calculator allows multiple users to enter their household size and their income and see their EFIN appear below.
 
 ## Requirements
 
@@ -68,3 +68,4 @@ Requirements:
 * Do read the docs for action cable carefully
 * Do feel free to refactor my js or clean up the front end as much as you want, please no coffee script though.
 * Use whichever background worker you want, just make sure to include instructions for how to get it set up
+* This is your chance to impress the Oddball engineering team, feel free to write tests/modularize things, clean up the code etc. Treat this like a real project that you would be inheriting.
