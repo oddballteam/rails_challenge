@@ -2,6 +2,10 @@
 
 This is an open-book test, so Google away, but please don't copy your work from pre-existing solutions you may find or ask others to help you complete the exercises. Solutions should be able to be run on a UNIX command line (Linux/Mac).
 
+## Getting Started
+
+Feel free to fork this repo, and push commits to your fork.
+
 ## Getting help
 
 If you get stuck, have a question, or want to clarify any aspect of the homework, you can contact members of our development team by emailing the person who sent you the link to the challenge.
